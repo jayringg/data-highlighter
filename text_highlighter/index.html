@@ -10,15 +10,15 @@
 <body>
  
 <div class="highlighter">
-  <input type="text" id="text-to-search">   
-  <button class="button" onclick="search()">Search</button> 
+  <input type="text" id="text-to-search" class="highlighter__input" placeholder="Search...">   
+  <button class="highlighter__button" onclick="search()">Search</button> 
 </div>
 <div class="paragraph"> 
-<p id="paragraph"></p>
+<p id="paragraph">Text Will Show Here</p>
 </div> 
 <div class="textInput">
-  <textarea id="text_insert" cols="30" rows="5"></textarea>
-  <button class ="button" id="btn" onclick="insert()">click me</button> 
+  <textarea class="textInput__textarea" id="text_insert" cols="80" rows="15" placeholder="Enter Content Here..."></textarea>
+  <button class ="textInput__button" id="btn" onclick="insert()">Text Input</button> 
 </div>  
 
 <script src="script.js"></script>
